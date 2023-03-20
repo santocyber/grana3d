@@ -16,7 +16,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 - 3 barra extrusion aluminio 2020 530mm
 - 2 barra extrusion aluminio 2020 600mm
 ### Barras
- - 6 haste linear 600m comprimento 10mm diametro
+ - 6 haste linear 600mm comprimento 10mm diametro
  - 2 Parafuso de chumbo t8  Pitch 2mm Lead 8mm comprimento 550mm
 
 

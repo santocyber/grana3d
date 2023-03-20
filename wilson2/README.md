@@ -2,7 +2,7 @@
 Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 
  - Placa controladora esp32 mks tinybee com 5 drivers A4988
- - 5 motores nema 17 17hs4401s)
+ - 5 motores nema 17 17hs4401s
 
 
 

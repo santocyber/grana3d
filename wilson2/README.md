@@ -9,7 +9,10 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho
  - 2 Parafuso de chumbo t8  Pitch 2mm Lead 8mm comprimento 550mm
 - micro servos de metal drive mg90s 9g
 
-
+## Frame
+- 4 barra extrusion aluminio 2020 650mm
+- 3 barra extrusion aluminio 2020 530mm
+- 2 barra extrusion aluminio 2020 600mm
 
 
 

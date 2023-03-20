@@ -1,6 +1,7 @@
-# WILSON2 REPRAP
+# Wilson2 REPRAP
 Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 
+# BOM Wilson2
 ## Eletronicos lista 
 
  - Placa controladora esp32 mks tinybee com 5 drivers A4988

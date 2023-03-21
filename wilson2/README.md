@@ -2,9 +2,9 @@
 Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 
 #### Tamanho de impressao
-. X 430mm
-. Y 400mm
-. Z 450mm
+- X 430mm
+- Y 400mm
+- Z 450mm
 
 # BOM Wilson2 #GrANAMOD
 ### Eletronicos 

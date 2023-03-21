@@ -1,7 +1,7 @@
 # Wilson2 REPRAP
 Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 
-Tamanho de impressao
+#### Tamanho de impressao
  X 430mm
  Y 400mm
  Z 450mm

@@ -41,4 +41,8 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
  ## Expectativa
  
  ![wilson-ii-preview](https://user-images.githubusercontent.com/3370347/226598745-309b49a7-3d9f-4617-b82f-093da86d27c4.jpg)
+ 
+ ## Realidade
+ ...
+ imprimindo as pecas e esperando chegar os pacotes da china rs
 

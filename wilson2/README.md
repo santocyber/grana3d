@@ -26,6 +26,8 @@ Z 450mm
 ### Polias
  - 1 engrenagem MK7 polia da extrusora de filamento
  - 2 2gt 20 dentes synchronus polia de sincronização gt2 16/20teeh
+ ### Extrusora
+ - 1 hotend e3d v6  
 
 
 ## BOM

@@ -1,6 +1,11 @@
 # Wilson2 REPRAP
 Impressora reprap do tipo wilson2 com algumas modificações de tamanho
 
+Tamanho de impressao
+X 430mm
+Y 400mm
+Z 450mm
+
 # BOM Wilson2 #GrANAMOD
 ## Eletronicos lista 
 
@@ -20,6 +25,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho
  - 2 Parafuso de chumbo t8  Pitch 2mm Lead 8mm comprimento 550mm
 ### Polias
  - 1 engrenagem MK7 polia da extrusora de filamento
+ - 2 2gt 20 dentes synchronus polia de sincronização gt2 16/20teeh
 
 
 ## BOM

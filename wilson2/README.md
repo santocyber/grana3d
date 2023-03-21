@@ -36,3 +36,9 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
 ## Placa controladora ligação dos cabos
 
  ![esp32MBwilsonGRANA](https://user-images.githubusercontent.com/3370347/226597925-2871dc9e-c282-459e-9dd8-d61ff7ce8155.jpg)
+ 
+ 
+ ## Expectativa
+ 
+ ![wilson-ii-preview](https://user-images.githubusercontent.com/3370347/226598745-309b49a7-3d9f-4617-b82f-093da86d27c4.jpg)
+

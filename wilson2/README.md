@@ -16,10 +16,11 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
 - 4 barra extrusion aluminio 2020 650mm
 - 3 barra extrusion aluminio 2020 530mm
 - 2 barra extrusion aluminio 2020 600mm
-### Barras e rolamentos lineares
+### Barras e rolamentos 
  - 6 haste linear 600mm comprimento 10mm diametro
  - 2 Parafuso de chumbo t8  Pitch 2mm Lead 8mm comprimento 550mm
  - 12 rolamento de trilho linear bucha lm10uu  
+ - 3 rolamento de esferas em aço cromado 624rs 
 ### Polias e correias
  - 2 2gt 20 dentes synchronus polia de sincronização gt2 16/20teeh
  - 3 metros de correia dentada de borracha de fibra de vidro gt2 6mm

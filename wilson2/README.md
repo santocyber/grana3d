@@ -30,7 +30,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho , detec�
  - 1 engrenagem MK7 polia de filamento para extrusora
  - 2  parafuso de nivelamento m3
  - 1 motor nema 17 17hs08-1004s
- - 1 Ventoinha 40mm x 40mm x 10mm fan
+ - 1  ventilador de refrigeração 4010 12v 150000RPM  40mm x 40mm x 10mm fan
  ### Mesa de impressao
  - 4 m4 parafuso da mola porca de nivelamento 
  - cama aquecida

@@ -26,7 +26,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
  - 3 metros de correia dentada de borracha de fibra de vidro gt2 6mm
  ### Extrusora
  - 1 hotend e3d v6  
- - 1 engrenagem MK7 polia da extrusora de filamento
+ - 1 engrenagem MK7 polia de filamento para extrusora
  - 2  parafuso de nivelamento m3
  ### Mesa de impressao
  - 4 m4 parafuso da mola porca de nivelamento 

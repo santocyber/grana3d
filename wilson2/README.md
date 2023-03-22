@@ -22,7 +22,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
  - 12 rolamento de trilho linear bucha lm10uu  
 ### Polias e correias
  - 2 2gt 20 dentes synchronus polia de sincronização gt2 16/20teeh
- - 3M correia dentada de borracha de fibra de vidro gt2 6mm
+ - 3 metros de correia dentada de borracha de fibra de vidro gt2 6mm
  ### Extrusora
  - 1 hotend e3d v6  
  - 1 engrenagem MK7 polia da extrusora de filamento

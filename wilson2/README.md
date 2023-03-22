@@ -8,7 +8,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
 
 # BOM Wilson2 #GrANAMOD
 ### Eletronicos 
-- 1 Placa controladora esp32 WiFi mks tinybee com 5 drivers A4988
+- 1 Placa controladora esp32 WiFi mks tinybee com 5 drivers TMC2209
 - 5 motores nema 17 17hs4401s ou 17hs8401
 - 3 KW11 Interruptor de Limite 10x20mm
 

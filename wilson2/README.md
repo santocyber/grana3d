@@ -29,6 +29,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho e detec�
  - 1 hotend e3d v6  
  - 1 engrenagem MK7 polia de filamento para extrusora
  - 2  parafuso de nivelamento m3
+ - 1 motor nema 17 17hs08-1004s
  ### Mesa de impressao
  - 4 m4 parafuso da mola porca de nivelamento 
  - cama aquecida

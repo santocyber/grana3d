@@ -479,10 +479,7 @@ bool initWiFi() {
   }
   WiFi.begin(ssid.c_str(), pass.c_str());
   
-  //##################Configura servicoes q precisa de conexao
-  
-    timeClient.begin();
-    timeClient.update();
+ 
 
   
   Serial.println("Connecting to WiFi...");
@@ -511,6 +508,11 @@ bool initWiFi() {
     Serial.println(".local");   
 
  }
+  
+ //##################Configura servicoes q precisa de conexao
+  
+    timeClient.begin();
+    timeClient.update();
 
       
   Serial.println(WiFi.localIP());
@@ -912,16 +914,16 @@ String configg = "Prontinho. GrANA3DCAM reiniciando, conecte no seu WIFI e cliqu
 
 
      // Create the task pinned to core 0 without using any dynamic memory allocation.
-    //      xHandle = xTaskCreateStatic(
-     xHandle = xTaskCreateStaticPinnedToCore(
+     xHandle = xTaskCreateStatic(
+   //  xHandle = xTaskCreateStaticPinnedToCore(
                    TELE,       // Function that implements the task.
                    "TELE",          // Text name for the task.
                    STACK_SIZE,      // Stack size in bytes, not words.
                    ( void * ) 1,    // Parameter passed into the task.   ( void * ) 1
                    1,// Priority at which the task is created.
                    xStack,          // Array to use as the task's stack.
-                   &xTaskBuffer,    // Variable to hold the task's data structure.
-                   0 );     
+                   &xTaskBuffer);//,    // Variable to hold the task's data structure.
+         //          0 );     
 
 //######################################### Sensor Acelerometro
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="manifest" href="manifest.json">
+<script>
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('sw.js');
+}
+</script>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="green">
+<meta name="apple-mobile-web-app-title" content="MushLight">
+
+    <title>GrANA3DCAM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>GrANA3DCAM</h1>
+    </div>
+
+
+      </div>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { text-align:center; }
+    .vert { margin-bottom: 10%; }
+    .hori{ margin-bottom: 0%; }
+  </style>
+</head>
+<body>
+  <div id="container">
+ 
+      <button class="button-on" onclick="rotatePhoto();">Gira</button>
+<a href="/capture"><button class="button-on">FOTO</button><a/>
+<a href="indexx"><button class="button-on">REFRESH</button><a/>
+<a href="lersd"><button class="button-on">LISTA</button><a/>
+<a href="indexcam.html"><button class="button-on">STREAM</button><a/><br>
+<a href="flashcam"><button class="button-on">FLASH</button><a/>
+<a href="pir"><button class="button-on">PIR</button><a/>
+<a href="timelapse"><button class="button-on">TIMELAPSE</button><a/>
+    </p>
+  </div>
+  <div><img src="saved-photo" id="photo" width="50%"></div>
+</body>
+<script>
+  var deg = 0;
+  function capturePhoto() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "/capture", true);
+    xhr.send();
+  }
+  function rotatePhoto() {
+    var img = document.getElementById("photo");
+    deg += 90;
+    if(isOdd(deg/90)){ document.getElementById("container").className = "vert"; }
+    else{ document.getElementById("container").className = "hori"; }
+    img.style.transform = "rotate(" + deg + "deg)";
+  }
+  function isOdd(n) { return Math.abs(n % 2) == 1; }
+</script>
+
+
+<br><br><br>
+<a href="http://www.mirako.org"> Agradecimentos ao desenvolvedor</a>
+    </div>
+  </body>
+</html>

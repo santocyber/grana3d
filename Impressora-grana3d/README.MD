@@ -59,11 +59,14 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho , detec�
 
 
 
-## Instalar as bibliotecas no arduino
+## Instalar as bibliotecas no Arduino IDE
 
 ### TMCStepper
 https://github.com/teemuatlut/TMCStepper
 
 ### ESP3D
 https://github.com/luc-github/ESP3DLib
+
+### U8glib
+https://github.com/olikraus/U8glib_Arduino
 

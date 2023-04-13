@@ -11,6 +11,7 @@ Impressora reprap do tipo wilson2 com algumas modificações de tamanho , detec�
 ### Eletronicos 
 - 1 Placa controladora esp32 WiFi mks tinybee com 5 drivers TMC2209
 - 5 motores nema 17 17hs4401s ou 17hs8401
+- 2 motores ldo nema 17 stepper 42sth48 2504ac para velocidade trocar o XY 
 - 3 KW11 Interruptor de Limite 10x20mm
 
 ### Frame

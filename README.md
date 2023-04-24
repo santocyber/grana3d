@@ -7,11 +7,6 @@ Impressora 3D e extrusora de filamento do projeto The Green Anarchy project GrAN
 - Produzir e modelar peças de plastico
 - Produzir tijolos celular de plastico HDPE com furos para vigas de concreto e aço para construir casas
 
-### Extrusora
-em breve...
-
-### Impressora
-- [Impressora REPRAP Wilson2 remix](https://github.com/santocyber/grana3d/tree/main/wilson2)
 
 ### Monitor de impressora
 

@@ -1,4 +1,0 @@
-## MINI IMPRESSORA GRANA3D
-
-
-200mm x 200mm x 200mm 

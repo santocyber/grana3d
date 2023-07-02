@@ -1,0 +1,10 @@
+G91 ; relative movements
+G1 F150 ; slow Z rate
+G1 Z20 ; Z up 20mm
+G90 ; back to absolute
+G1 X0 Y0 F2000
+M104 S0
+M140 S0
+G92 E0
+G1 E-10 F2000
+M84

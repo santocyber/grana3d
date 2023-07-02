@@ -1,0 +1,94 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/src/libs/MappedDict",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/EEPROM/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/InterruptStepper/include",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/InterruptStepper/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/Embedded Template Library/include",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/Embedded Template Library",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/avr-debugger/avr8-stub",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/U8g2/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/LiquidTWI2",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Wire/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/LiquidCrystal/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/AccelStepper/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/TMCStepper/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SoftwareSerial/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SPI/src",
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/TinyGPSPlus/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/cores/MegaCore",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/variants/100-pin-arduino-mega",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/AVR_examples/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Optiboot_flasher/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SD/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Servo/src",
+                "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Timer/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/src/libs/MappedDict",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/EEPROM/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/InterruptStepper/include",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/InterruptStepper/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/Embedded Template Library/include",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/Embedded Template Library",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/avr-debugger/avr8-stub",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/U8g2/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/LiquidTWI2",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Wire/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/LiquidCrystal/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/AccelStepper/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/TMCStepper/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SoftwareSerial/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SPI/src",
+                    "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/.pio/libdeps/ramps/TinyGPSPlus/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/cores/MegaCore",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/variants/100-pin-arduino-mega",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/AVR_examples/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Optiboot_flasher/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/SD/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Servo/src",
+                    "/home/luiza/.platformio/packages/framework-arduino-avr-megacore/libraries/Timer/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "ARDUINO_AVR_ATmega2560",
+                "ETL_NO_STL",
+                "BOARD=BOARD_AVR_RAMPS",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "forcedInclude": [
+                "/home/luiza/Documents/AMYWORK3D/AIMPRESSORA-GRANA3D/TELESCOPIO-MIRAKO/OpenAstroTracker-Firmware/src/macros/gcc/Macros.hpp",
+                ""
+            ],
+            "compilerPath": "/home/luiza/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

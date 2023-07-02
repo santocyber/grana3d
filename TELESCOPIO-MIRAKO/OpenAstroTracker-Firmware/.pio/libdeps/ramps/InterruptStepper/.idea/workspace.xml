@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="avr-interrupt-stepper" targetName="gmock" />
+      <config projectName="avr-interrupt-stepper" targetName="gtest_main" />
+      <config projectName="avr-interrupt-stepper" targetName="gmock_main" />
+      <config projectName="avr-interrupt-stepper" targetName="native_test" />
+      <config projectName="avr-interrupt-stepper" targetName="gtest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-Coverage" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20995ce1-c457-4047-8928-6bb170770d7e" name="Changes" comment="extended testing a lot and fixed several issues">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/avr/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/examples/avr/Configuration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/avr/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/avr/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Stepper.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Stepper.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.3" />
+  </component>
+  <component name="ProjectId" id="2F2lrawBYQR2JboJaJoFvW7MIll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/andre/repos/avr-interrupt-stepper",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C/C++",
+    "structure.view.defaults.are.configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/test_desktop/oat" />
+      <recent name="$PROJECT_DIR$/cmake" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.native_test">
+    <configuration name="All in StepperTest.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/test/test_desktop/StepperTest.cpp)" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atSlewingCW_by8160Steps]" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_PATTERN="StepperTest/CartesianStepperTest.moveBy/whileIdle_move_atSlewingCW_by8160Steps:StepperTest/CartesianStepperTest/whileIdle_move_atSlewingCW_by8160Steps.moveBy" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atTrackingCW_by8160Steps]" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_PATTERN="StepperTest/CartesianStepperTest.moveBy/whileIdle_move_atTrackingCW_by8160Steps:StepperTest/CartesianStepperTest/whileIdle_move_atTrackingCW_by8160Steps.moveBy" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepperTest-CartesianStepperTest.moveBy[whileTrackingCW_move_atTrackingCCW_by1Steps]" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_PATTERN="StepperTest/CartesianStepperTest.moveBy/whileTrackingCW_move_atTrackingCCW_by1Steps:StepperTest/CartesianStepperTest/whileTrackingCW_move_atTrackingCCW_by1Steps.moveBy" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepperTest-StepperStopTest.stop[tracking_cw]" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_PATTERN="StepperTest/StepperStopTest.stop/tracking_cw:StepperTest/StepperStopTest/tracking_cw.stop" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="native_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="native_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="avr-interrupt-stepper" RUN_TARGET_NAME="native_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr-interrupt-stepper" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.native_test" />
+      <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atSlewingCW_by8160Steps]" />
+      <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atTrackingCW_by8160Steps]" />
+      <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileTrackingCW_move_atTrackingCCW_by1Steps]" />
+      <item itemvalue="Google Test.StepperTest-StepperStopTest.stop[tracking_cw]" />
+      <item itemvalue="Google Test.All in StepperTest.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atSlewingCW_by8160Steps]" />
+        <item itemvalue="Google Test.All in StepperTest.cpp" />
+        <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileIdle_move_atTrackingCW_by8160Steps]" />
+        <item itemvalue="Google Test.StepperTest-CartesianStepperTest.moveBy[whileTrackingCW_move_atTrackingCCW_by1Steps]" />
+        <item itemvalue="Google Test.StepperTest-StepperStopTest.stop[tracking_cw]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20995ce1-c457-4047-8928-6bb170770d7e" name="Changes" comment="" />
+      <created>1663698258820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663698258820</updated>
+      <workItem from="1663698260066" duration="17000" />
+      <workItem from="1664817933902" duration="12963000" />
+      <workItem from="1664908382746" duration="2942000" />
+      <workItem from="1666299119082" duration="4163000" />
+      <workItem from="1666368787213" duration="9413000" />
+      <workItem from="1666428527091" duration="392000" />
+      <workItem from="1666462583581" duration="8874000" />
+      <workItem from="1666519300522" duration="2153000" />
+      <workItem from="1666528621297" duration="4499000" />
+      <workItem from="1666538044607" duration="2139000" />
+      <workItem from="1666545444527" duration="9904000" />
+      <workItem from="1666632368778" duration="601000" />
+      <workItem from="1666635452727" duration="11455000" />
+      <workItem from="1666718355531" duration="8819000" />
+      <workItem from="1666730628872" duration="4794000" />
+      <workItem from="1666806770744" duration="7482000" />
+      <workItem from="1666893335943" duration="3246000" />
+      <workItem from="1666978951123" duration="9984000" />
+      <workItem from="1667041479546" duration="1031000" />
+      <workItem from="1667066696063" duration="1557000" />
+      <workItem from="1667159752077" duration="8180000" />
+      <workItem from="1667422829809" duration="1066000" />
+      <workItem from="1667594393799" duration="7319000" />
+      <workItem from="1667670944687" duration="12480000" />
+      <workItem from="1667758740677" duration="12998000" />
+      <workItem from="1667846580621" duration="6953000" />
+      <workItem from="1667940078570" duration="3197000" />
+      <workItem from="1668030879175" duration="599000" />
+      <workItem from="1668033051279" duration="1686000" />
+      <workItem from="1668092621538" duration="1205000" />
+      <workItem from="1668106396328" duration="4541000" />
+      <workItem from="1668191513531" duration="12852000" />
+      <workItem from="1668281531177" duration="4097000" />
+      <workItem from="1668289247431" duration="2476000" />
+      <workItem from="1668341905116" duration="4000" />
+      <workItem from="1668633124744" duration="1186000" />
+      <workItem from="1668809693750" duration="1096000" />
+      <workItem from="1668872764399" duration="374000" />
+      <workItem from="1668875403506" duration="1000" />
+      <workItem from="1668884684125" duration="239000" />
+      <workItem from="1668885645898" duration="9195000" />
+      <workItem from="1668945233096" duration="10842000" />
+      <workItem from="1668974843459" duration="216000" />
+      <workItem from="1668980328747" duration="3045000" />
+      <workItem from="1669061768936" duration="3015000" />
+      <workItem from="1669069065624" duration="3116000" />
+      <workItem from="1669114788817" duration="3057000" />
+      <workItem from="1669150765801" duration="9543000" />
+      <workItem from="1669225463927" duration="5000000" />
+      <workItem from="1669313768542" duration="1000" />
+      <workItem from="1669314713573" duration="1185000" />
+    </task>
+    <task id="LOCAL-00001" summary="removed unused code after multistep change">
+      <created>1667156369134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667156369134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adapted test code to 16 bit stairs vector of the ramp">
+      <created>1667159861215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159861215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="extended testing a lot and fixed several issues">
+      <created>1668207723424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668207723424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed unused code after multistep change" />
+    <MESSAGE value="adapted test code to 16 bit stairs vector of the ramp" />
+    <MESSAGE value="extended testing a lot and fixed several issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="extended testing a lot and fixed several issues" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <condition expression="value == 2147483647" language="ObjectiveC" />
+          <url>file://$PROJECT_DIR$/test/test_desktop/gmocks/MockedIntervalInterrupt.h</url>
+          <line>55</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/Stepper.h</url>
+          <line>531</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="pos" language="ObjectiveC" />
+        <watch expression="ramp_stair" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../repos/avr-interrupt-stepper/cmake-build-debug-coverage" NAME="All in StepperTest.cpp Coverage Results" MODIFIED="1666731029936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

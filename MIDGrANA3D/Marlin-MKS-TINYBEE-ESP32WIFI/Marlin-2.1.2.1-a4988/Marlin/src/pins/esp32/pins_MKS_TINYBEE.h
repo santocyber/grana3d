@@ -104,13 +104,13 @@
 //
 #define HEATER_0_PIN                         145
 #define HEATER_1_PIN                         146
-#define FAN_PIN                              148
-//#define FAN1_PIN                           148
+//#define FAN_PIN                              148
+#define FAN1_PIN                           148
 #define HEATER_BED_PIN                       144
 #define TEMP_CHAMBER_PIN                     34
 //#define CONTROLLER_FAN_PIN                 148
 #define E0_AUTO_FAN_PIN                      147  // need to update Configuration_adv.h @section extruder
-//#define E1_AUTO_FAN_PIN                    149  // need to update Configuration_adv.h @section extruder
+//#define E1_AUTO_FAN_PIN                    148  // need to update Configuration_adv.h @section extruder
 
 //
 // ADC Reference Voltage

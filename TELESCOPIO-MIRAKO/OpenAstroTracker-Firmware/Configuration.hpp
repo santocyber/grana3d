@@ -40,7 +40,7 @@
 // Uncomment the definition and set a board (see Constants.hpp for valid values) if you build in Arduino IDE.
 // PlatformIO will set this value automatically and no action is needed.
 #ifndef BOARD
- #define BOARD BOARD_ESP32_ESP32DEV 
+ #define BOARD BOARD_AVR_MKS_GEN_L_V21
 #endif
 
 #ifndef BOARD
@@ -58,7 +58,7 @@
  * Pin assignments vary based on display & keypad selection.
  */
 #ifndef DISPLAY_TYPE
-    #define DISPLAY_TYPE DISPLAY_TYPE_NONE 
+    #define DISPLAY_TYPE 0
 #endif
 
 // Used RA wheel version. Unless you printed your OAT before March 2020, you're using
@@ -93,16 +93,18 @@
  */
 
 
-#define DEC_OPERATING_CURRENT_SETTING 10
-#define RA_OPERATING_CURRENT_SETTING 10
-#define DEC_MOTOR_CURRENT_RATING 900
-#define RA_MOTOR_CURRENT_RATING 900
+#define DEC_OPERATING_CURRENT_SETTING 20
+#define RA_OPERATING_CURRENT_SETTING 20
+#define DEC_MOTOR_CURRENT_RATING 1700
+#define RA_MOTOR_CURRENT_RATING 1700
  
 #ifndef RA_DRIVER_TYPE
-    #define RA_DRIVER_TYPE DRIVER_TYPE_TMC2209_UART 
+    #define RA_DRIVER_TYPE DRIVER_TYPE_TMC2209_UART
+//    #define RA_DRIVER_TYPE DRIVER_TYPE_TMC2209_STANDALONE 
 #endif
 #ifndef DEC_DRIVER_TYPE
-    #define DEC_DRIVER_TYPE DRIVER_TYPE_TMC2209_UART 
+    #define DEC_DRIVER_TYPE DRIVER_TYPE_TMC2209_UART
+//    #define DEC_DRIVER_TYPE DRIVER_TYPE_TMC2209_STANDALONE 
 #endif
 #ifndef AZ_DRIVER_TYPE
     #define AZ_DRIVER_TYPE DRIVER_TYPE_NONE
@@ -144,7 +146,7 @@
  * Note the potential serial port assignment conflict if stepper driver DRIVER_TYPE_TMC2209_UART is used.
  */
 #ifndef USE_GPS
-    #define USE_GPS 0
+    #define USE_GPS 1
 #endif
 #ifndef GPS_BAUD_RATE
     #define GPS_BAUD_RATE 9600
@@ -177,7 +179,7 @@
  * Note that enabling Wifi increases flash usage by about 420 kB.
  */
 #ifndef WIFI_ENABLED
-    #define WIFI_ENABLED 1
+    #define WIFI_ENABLED 0
 #endif
 #ifndef WIFI_MODE
     #define WIFI_MODE WIFI_MODE_INFRASTRUCTURE
@@ -201,7 +203,7 @@
  * On ATmega & ESP32 gyro uses hardware I2C. No additional pins required. 
  */
 #ifndef USE_GYRO_LEVEL
-    #define USE_GYRO_LEVEL 0
+    #define USE_GYRO_LEVEL 1
 #endif
 
 // Set this to 1 if your gyro is mounted such that roll and pitch are in the wrong direction
@@ -243,7 +245,7 @@
 // Debug output is useful if you are using Wifi to control the OAT or if you are issuing
 // manual commands via a terminal.
 #ifndef DEBUG_LEVEL
-    #define DEBUG_LEVEL (DEBUG_NONE)
+    #define DEBUG_LEVEL (DEBUG_ANY)
 #endif
 
 // Append board specific pins data.

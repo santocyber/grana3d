@@ -1,0 +1,62 @@
+## INSTALANDO AMD GPU PARA MINING
+ executar como root
+
+sudo apt-get -y install ocl-icd-opencl-dev opencl-headers rocm-opencl-runtime
+
+amdgpu-install --usecase=workstation,rocm,opencl --opencl=rocr,legacy --vulkan=pro --accept-eula
+
+ou 
+
+amdgpu-install --no-dkms --usecase=opencl
+    
+
+sudo sysctl -w vm.nr_hugepages=2048
+sudo echo "* soft memlock 262144" >> /etc/security/limits.conf
+sudo echo "* hard memlocl 262144" >> /etc/security/limits.conf
+
+
+
+## ENDERECOS
+
+nicehash endereco de mineracao
+39AH3vvQk9V6HTHo4uvVcZLRmbXCSFGvKd
+
+pool
+xmr.2miners.com:2222	
+
+xmr wallet
+8BaHRsYVo2VFvApQrHwKGyPZX7SQcUz8USYeKPuuXFKDeTXcDcaFb2j7xvetky7RjFKB2fsqAL9cqgSLPWo75w1BFCgStLZ
+
+
+https://github.com/fireice-uk/xmr-stak/releases/download/2.10.8/xmr-stak-linux-2.10.8-cpu_opencl-amd.tar.xz
+
+
+https://xmr.2miners.com/account/8BaHRsYVo2VFvApQrHwKGyPZX7SQcUz8USYeKPuuXFKDeTXcDcaFb2j7xvetky7RjFKB2fsqAL9cqgSLPWo75w1BFCgStLZ
+
+
+
+
+
+
+Mining Ravencoin(Kawpow) with Teamredminer for AMD GPUs:
+
+rvn wallet
+RFqELFKc8aPTBVpyZqBZdLPgiPv2aAH9x6
+
+https://github.com/todxx/teamredminer/releases
+
+us-rvn.2miners.com:6060	
+
+
+-a kawpow -o stratum+tcp://kawpow.eu.nicehash.com:3385 -u 39AH3vvQk9V6HTHo4uvVcZLRmbXCSFGvKd.epiteto -p x -api_listen -watchdog_script
+
+
+
+Mining Beam with LolMiner for AMD and Nvidia GPUs:
+https://github.com/Lolliedieb/lolMiner-releases/releases
+
+
+--coin BEAM --pool beamv3.eu.nicehash.com:3387 --user 39AH3vvQk9V6HTHo4uvVcZLRmbXCSFGvKd.GRANA1 --tls off --apiport 4444
+
+
+
